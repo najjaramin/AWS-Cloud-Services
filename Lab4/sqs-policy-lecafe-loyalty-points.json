@@ -1,1 +1,0 @@
-{"Policy":"{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":\"sqs:SendMessage\",\"Condition\":{\"ArnEquals\":{\"aws:SourceArn\":\"arn:aws:sns:us-east-1:000000000000:lecafe-orders-topic\"}},\"Principal\":{\"Service\":\"sns.amazonaws.com\"},\"Resource\":\"arn:aws:sqs:us-east-1:000000000000:lecafe-loyalty-points\",\"Effect\":\"Allow\",\"Sid\":\"AllowSNSPublish\"}]}"}
