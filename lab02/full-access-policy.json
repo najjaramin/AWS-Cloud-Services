@@ -1,0 +1,30 @@
+﻿{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:GetObject",
+        "s3:ListBucket",
+        "s3:PutObject",
+        "s3:DeleteObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::c200755a5126305l13963640t1w982263696154-s3bucket-3afpxj9xqsek",
+        "arn:aws:s3:::c200755a5126305l13963640t1w982263696154-s3bucket-3afpxj9xqsek/*"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:PutBucketWebsite",
+        "s3:PutBucketPolicy",
+        "s3:GetBucketPolicy",
+        "s3:PutBucketAcl"
+      ],
+      "Resource": "arn:aws:s3:::c200755a5126305l13963640t1w982263696154-s3bucket-3afpxj9xqsek"
+    }
+  ]
+}

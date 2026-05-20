@@ -1,0 +1,4 @@
+{
+  "deadLetterTargetArn": "$DLQ_ARN",
+  "maxReceiveCount": 3
+}

@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "name": "Brew",
+      "quantity": 8,
+      "price": 4.00
+    }
+  ],
+  "totalAmount": 32.00
+}

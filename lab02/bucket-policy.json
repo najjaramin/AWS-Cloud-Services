@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+           "Resource": "arn:aws:s3:::c200755a5126305l13963640t1w982263696154-s3bucket-3afpxj9xqsek/*"
+    },
+    
+    {
+      "Sid": "AllowBucketActions",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::982263696154:root"
+      },
+      "Action": [
+        "s3:CreateBucket",
+        "s3:PutBucketPolicy",
+        "s3:PutObject",
+        "s3:DeleteObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::c200755a5126289l15192081t1w228151154165-htmlbucket-mqkpeqatm1ib",
+        "arn:aws:s3:::c200755a5126289l15192081t1w228151154165-htmlbucket-mqkpeqatm1ib/*"
+      ]
+    }
+  ]
+}
